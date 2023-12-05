@@ -1,12 +1,31 @@
 <template>
+<div>
+ <div>Count is below:</div> 
+
+  {{ theCount }}
+
+</div>
   
 </template>
 
 <script>
+
+import { count } from '../main'
+
+
 export default {
-  name: 'HelloWorld',
+  name: 'observe',
   props: {  },
   setup() {
+
+    let theCount = count;
+    console.log('count is',count);
+
+    return { theCount };
+
+    
+
+  } //setup
 
   }
 
