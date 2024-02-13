@@ -17,6 +17,6 @@ export const objectObservable = Vue.observable({
 
 export const blah = "blahblah"
 
-new Vue({
+const testy = new Vue({
   render: h => h(App),
 }).$mount('#app')

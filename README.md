@@ -23,3 +23,6 @@ There are two examples provided in main.js. One is using a primitive type and th
 The intent of the examples are to demonstrate the 'reactiveness' of the data in the Observable.
 
 https://sweetcode.io/managing-state-with-vue-observable/
+
+
+https://laracasts.com/discuss/channels/laravel/pass-a-variable-to-vuejs    

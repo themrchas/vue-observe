@@ -12,7 +12,26 @@
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
 
+
+    
+
+    
     <div id="app"></div>
     <!-- built files will be auto injected -->
+
+
+    <div>
+      <button type="button" id="btnNotVue">Press this</button>
+    </div>
+
+    <script>
+
+      document.getElementById("btnNotVue").addEventListener('click',() => { alert('money'); console.log('testy is',testy);  } );
+    //  console.log('objectObservable is',objectObservable);
+   
+    </script>
+
+
+
   </body>
 </html>
